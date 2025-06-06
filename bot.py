@@ -7,9 +7,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
- text = """
-👋 Вітаю! Це 'Гра від колоди🎮'!
-"""
+text = "👋 Вітаю! Це 'Гра від колоди🎮'!"
 
 
 "
